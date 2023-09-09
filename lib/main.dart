@@ -1,15 +1,11 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last, prefer_const_literals_to_create_immutables
-import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:hngtask1/SplashScreen.dart';
 import 'package:hngtask1/profileScreen.dart';
 import 'package:hngtask1/githubWebView.dart';
 
 void main() {
-  runApp(DevicePreview(
-    enabled: false,
-    builder: (BuildContext context) => MyApp(),
-  ));
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
