@@ -55,7 +55,7 @@ class ProfileScreen extends StatelessWidget {
                   },
                 );
                 await Future.delayed(
-                  Duration(seconds: 3),
+                  Duration(seconds: 1),
                   () async {
                     await Navigator.pushNamed(context, WebViewScreen.id);
                     Navigator.pop(context);
