@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, must_be_immutable, duplicate_import, depend_on_referenced_packages
+// ignore_for_file: use_key_in_widget_constructors, must_be_immutable, duplicate_import, depend_on_referenced_packages, unused_field
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
