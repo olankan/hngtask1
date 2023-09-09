@@ -60,12 +60,6 @@ class _WebViewScreenState extends State<WebViewScreen> {
               // Enable debugging
             ),
           ),
-          onProgressChanged: (controller, progress) {
-            // Handle progress changes here
-          },
-          onLoadStop: (controller, url) {
-            // Handle page load completion
-          },
         ),
       ),
     );
